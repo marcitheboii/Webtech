@@ -1,0 +1,88 @@
+irodalomjegyzek {
+    font-family: default;
+    counter-reset: szamlalo;
+    background-color: whitesmoke;
+    margin: 1em;
+    word-spacing: 0.15em;
+}
+elocim {
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    border: thick solid gray;
+    padding: 1em;
+    letter-spacing: 0.2em;
+    background-color: rgb(34, 32, 32);
+    color: whitesmoke;
+}
+jegyzek:first-of-type{
+    padding-top: 2em;
+}
+jegyzek:nth-child(odd){
+    background-color: rgb(201, 191, 191);
+}
+szerzo{
+    padding: 0.25em;
+}
+
+cim, kiadasszam, kiado, kiadasev, isbn, web {
+    padding: 1em;
+}
+
+jegyzek {
+    display: block;
+    counter-increment: szamlalo;
+    padding-block: 1em;
+}
+jegyzek::before{
+    padding-left: 0.3em;
+    content: "   [" counter(szamlalo) "]";
+}
+
+szerzo::after{
+    content: ",";
+}
+
+szerzo:last-of-type:after{
+    content: ".";
+}
+cim{
+    font-style: italic;
+}
+
+cim::after{
+    content: ".";
+}
+
+kiadasszam::after{
+    content: ".";
+}
+
+kiado::after{
+    content: ",";
+}
+
+kiadasev::after{
+    content: ".";
+}
+
+isbn::before {
+    content: "ISBN: ";
+}
+isbn::after{
+    content: ".";
+}
+
+web::before{
+    content: "URL: ";
+    color: black;
+}
+
+web{
+    font-family: monospace;
+}
+
+web:hover{
+    color: blue;
+}

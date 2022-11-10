@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT irodalomjegyzek (elocim,jegyzek*)>
+<!ELEMENT jegyzek (szerzo+,cim,kiadasszam?,kiado,kiadasev,isbn,web?)>
+<!ELEMENT elocim (#PCDATA)>
+<!ELEMENT szerzo (#PCDATA)>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT kiadasszam (#PCDATA)>
+<!ELEMENT kiado (#PCDATA)>
+<!ELEMENT kiadasev (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT web (#PCDATA)>

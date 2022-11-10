@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="irodalomjegyzek.css" type="text/css"?>
+<!DOCTYPE irodalomjegyzek SYSTEM "irodalomjegyzek.dtd">
+<irodalomjegyzek>
+    <elocim>Informatika szakirodalom</elocim>
+    <jegyzek>
+        <szerzo>Eric A. Meyer</szerzo>
+        <szerzo>Estelle Weyl</szerzo>
+        <cim>CSS: The Definitive Guide</cim>
+        <kiadasszam>4th ed</kiadasszam>
+        <kiado>O’Reilly Media</kiado>
+        <kiadasev>2017</kiadasev>
+        <isbn>9781449393199</isbn>
+    </jegyzek>
+    <jegyzek>
+        <szerzo>Ben Frain</szerzo>
+        <cim>Responsive Web Design with HTML5 and CSS</cim>
+        <kiadasszam>3rd ed</kiadasszam>
+        <kiado>Pack Publishing</kiado>
+        <kiadasev>2020</kiadasev>
+        <isbn>9781839211560</isbn>
+        <web>https://www.packtpub.com/product/responsive-web-design-with-html5-and-css-third-edition/9781839211560</web>
+    </jegyzek>
+    <jegyzek>
+        <szerzo>David Flanagan</szerzo>
+        <cim>JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language</cim>
+        <kiadasszam>7th ed</kiadasszam>
+        <kiado>O'Reilly Media</kiado>
+        <kiadasev>2020</kiadasev>
+        <isbn>9781491952023</isbn>
+    </jegyzek>
+    <jegyzek>
+        <szerzo>Eric Matthes</szerzo>
+        <cim>Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming</cim>
+        <kiadasszam>2nd ed</kiadasszam>
+        <kiado>No Starch Press</kiado>
+        <kiadasev>2019</kiadasev>
+        <isbn>9781593279288</isbn>
+    </jegyzek>
+    <jegyzek>
+        <szerzo>Boris Cherny</szerzo>
+        <cim>Programming TypeScript: Making Your JavaScript Applications Scale</cim>
+        <kiadasszam>1st ed</kiadasszam>
+        <kiado>O'Reilly Media</kiado>
+        <kiadasev>2019</kiadasev>
+        <isbn>9781492037651</isbn>
+    </jegyzek>
+    <jegyzek>
+        <szerzo>Alex Banks</szerzo>
+        <szerzo>Eve Porcello</szerzo>
+        <cim>Learning React: Modern Patterns for Developing React Apps</cim>
+        <kiadasszam>2nd ed</kiadasszam>
+        <kiado>O'Reilly Media</kiado>
+        <kiadasev>2020</kiadasev>
+        <isbn>9781492051725</isbn>
+    </jegyzek>
+</irodalomjegyzek>
