@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+table{
+    margin: 1em auto;
+    border: thick solid white;
+    background-color: rgb(37, 36, 36);
+    border-spacing: 0.3em;
+}
+
+td{
+    height: 4em;
+    width: 4em;
+    border-radius: 4em;
+    padding: 1em auto;
+}
+
+.yellow {
+    border: thick solid yellow;
+    background-color: gray;
+}
+
+.red {
+    border: thick solid red;
+    background-color: gray;
+}
+
+.green {
+    border: thick solid green;
+    background-color: gray;
+}
+
+.orange {
+    border: thick solid orange;
+    background-color: gray;
+}
+
+.blue {
+    border: thick solid blue;
+    background-color: gray;
+}
+
+tfoot{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: ghostwhite;
+}
+tfoot> tr> td{
+    border-radius: 0em;
+    height: 3em;
+}
+
+tfoot> tr> td:nth-of-type(1){
+    border-top: thick solid green;
+}
+tfoot> tr> td:nth-of-type(2){
+    border-top: thick solid red;
+}
+tfoot> tr> td:nth-of-type(3){
+    border-top: thick solid yellow;
+}
+tfoot> tr> td:nth-of-type(4){
+    border-top: thick solid blue;
+}
+tfoot> tr> td:nth-of-type(5){
+    border-top: thick solid orange;
+}
